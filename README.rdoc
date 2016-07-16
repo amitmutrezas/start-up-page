@@ -1,28 +1,18 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a template page app for prelaunch of any start-up to get started with user traction.
 
-Things you may want to cover:
+This app has the following features:
 
-* Ruby version
+* Facebook-login integration
 
-* System dependencies
+* Data-entry form (for the users who do not wish to be connected with facebook)
 
-* Configuration
+* Flexibility to configure the page and change the design usin bootstrap framework
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* User database (which can be used by sales or marketing team to grow the business)
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Technologies used:
+
+ * Ruby on Rails, Bootstrap
