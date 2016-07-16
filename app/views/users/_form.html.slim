@@ -1,0 +1,18 @@
+= form_for form_object , html: {class: 'form-horizontal',role: 'form', "data-toggle" => 'validator'} do |f|
+      .form-container-unit
+        = f.label :name
+        = f.text_field :name, autofocus: true, class: "form-control", placeholder: t("user.p-name"), "data-error" => t("user.name"), required: true
+        /= errors_for @user, :name
+        .help-block.with-errors
+      .form-container-unit
+        = f.label :email
+        = f.text_field :email, autofocus: true, class: "form-control", placeholder: t("user.p-email"), "data-error" => t("user.email"), required: true
+        /= errors_for @user, :email
+        .help-block.with-errors
+      .form-container-unit
+        = f.label :phone_number
+        = f.text_field :phone_number, autofocus: true, class: "form-control", placeholder: t("user.p-phone_number"), "data-error" => t("user.phone_number"), required: true
+        /= errors_for @user, :phone_number
+        .help-block.with-errors
+      .form-container-unit#save-details
+        = f.submit 'Submit',class: "btn btn-lg btn-primary btn-block"

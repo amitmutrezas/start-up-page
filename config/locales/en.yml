@@ -1,0 +1,8 @@
+en:
+  user:
+    name: "Enter a name before saving"
+    p-name: "Name"
+    email: "Enter your email id in correct format"
+    p-email: "Enter your email id"
+    phone_number: "Enter 10 digits phone number before saving"
+    p-phone_number: "Phone Number"
